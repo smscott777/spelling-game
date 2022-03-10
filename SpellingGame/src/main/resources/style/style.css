@@ -1,0 +1,48 @@
+/*
+ * JavaFX enabled CSS style for the SpellingLearning GUI Game.
+ * @author Simone Scott
+ */
+
+.root {
+	-fx-font-family: "Arial", "Classic Comic", "Courier New";
+	-fx-font-size: 14pt;
+	-fx-font-weight: bold;
+	-fx-background-color: rgb(46, 181, 201);
+}
+
+.button {
+	-fx-border-radius: 8;
+	-fx-background-radius: 50;
+	-fx-border-insets: 3;
+	-fx-background-insets: 3;	
+ 	-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+
+}
+
+.extraButton {
+	-fx-border-radius: 50;
+	-fx-background-radius: 50;
+	-fx-background-color: rgb(204, 0, 204);
+	-fx-border-color:  rgb(225, 228, 203);
+	-fx-text-fill: rgb(225, 228, 203);
+}
+
+.extraButtonsHbox {
+	-fx-padding: 70 0 0 0;
+}
+
+.score {
+	-fx-font-size: 11pt;
+}
+
+.spellText {
+	-fx-font-size: 60pt;
+	-fx-fill: rgb(204, 0, 204);
+	-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+
+.welcome {
+	-fx-font-size: 32pt;
+	-fx-fill: rgb(204, 0, 204);
+	-fx-effect: dropshadow( two-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
