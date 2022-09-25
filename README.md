@@ -1,4 +1,9 @@
 # spelling-game
+
 A JavaFX application. 
-Requires a java installation on the user's pc in order to download and run the application.
-Can download java at: https://www.java.com/download/ie_manual.jsp
+Requires Java 8.
+Can download Java 8 at: https://www.java.com/download/ie_manual.jsp
+
+To run: 
+Execute java -jar SpellingGame.jar in the command line.
+(Warning: music)
